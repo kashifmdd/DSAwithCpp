@@ -1,0 +1,10 @@
+*.o
+*.out
+a.out
+*.exe
+*.app
+*
+!*.cpp
+!*.h
+!.gitignore
+!*.md

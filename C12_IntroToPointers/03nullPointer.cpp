@@ -2,13 +2,12 @@
 using namespace std;
 
 int main(){
-    int a = 10;
-    int *ptr = &a;
-
+    int *ptr = NULL;
     cout << ptr << "\n";
+
+    //segmentation fault
     cout << *ptr << "\n";
 
-    *ptr = 20;
-    cout << a << "\n";
+    cout << "bye";
     return 0;
 }
